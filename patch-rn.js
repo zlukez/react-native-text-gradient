@@ -4,7 +4,7 @@ const { writeFile, readFile, readdir } = require('fs');
 const { promisify } = require('util');
 const path = require('path');
 
-const folder = 'node_modules/react-native/Libraries/Renderer/oss/';
+const folder = 'node_modules/react-native/Libraries/Renderer/implementations/';
 
 const pattern = new RegExp(
   'invariant\\([\\s\\S]{0,20}' +
